@@ -1,12 +1,16 @@
 # The World's Hardest Game
 
+![C](https://img.shields.io/badge/C-%2300599C?style=for-the-badge&logo=c&logoColor=white)
+![Altera FPGA](https://img.shields.io/badge/Altera%20FPGA-%23A1B1C1?style=for-the-badge)
+![VGA](https://img.shields.io/badge/VGA-%23FF69B4?style=for-the-badge)
+![DE1-SoC](https://img.shields.io/badge/DE1--SoC-%234285F4?style=for-the-badge)
+![PS2 Keyboard](https://img.shields.io/badge/PS2%20Keyboard-%23F2A900?style=for-the-badge)
+
 This project is a recreation of the popular online game _The World's Hardest Game_, originally hosted on Cool Math Games.
 
 Implemented in the **C programming language**, the game consists of two challenging levels where the player controls a red block and must navigate through moving blue obstacles and collect yellow coins to reach green safe zones.
 
 The game runs on the **Nios V processor** and is displayed via **VGA output**, with sound output through the **DE1-SoC board speakers**. Input is provided through a **PS/2 keyboard**, supporting either the **WASD** or **arrow keys** for movement.
-
----
 
 ## 🛠️ Tech Stack
 
@@ -19,8 +23,6 @@ The game runs on the **Nios V processor** and is displayed via **VGA output**, w
 - **Graphics Tools:**  
   - Canva (for main screen design)  
   - PNG-to-C array converter (for asset integration)
-
----
 
 ## 🎮 Gameplay Overview
 
@@ -49,21 +51,17 @@ The game runs on the **Nios V processor** and is displayed via **VGA output**, w
   - Completing both conditions triggers the **end screen** with concluding music.  
   - Press **Escape** at any time to return to the main screen.
 
----
-
 ## 📸 Block Diagram
 
 Below is the system-level block diagram:
 
 ![Block Diagram](Block_Diagram.png)  
 
----
 
 ## 📹 Demo Video
 
 🎥 [Watch the Demo Video Here](https://drive.google.com/file/d/1BoZAGJSXcb0ABgDKVtCnGvAO_such8zC/view?usp=sharing)  
 
----
 
 ## 🚀 How to Run
 
@@ -72,4 +70,4 @@ Below is the system-level block diagram:
 3. Compile and upload the code.  
 4. Start the game by pressing the **Space** key on the main screen.
 
----
+
