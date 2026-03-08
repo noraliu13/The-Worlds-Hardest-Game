@@ -12,7 +12,7 @@ Implemented in the **C programming language**, the game consists of two challeng
 
 The game runs on the **Nios V processor** and is displayed via **VGA output**, with sound output through the **DE1-SoC board speakers**. Input is provided through a **PS/2 keyboard**, supporting either the **WASD** or **arrow keys** for movement.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** C  
 - **Processor:** Nios V (Altera/Intel FPGA soft processor)  
@@ -24,7 +24,7 @@ The game runs on the **Nios V processor** and is displayed via **VGA output**, w
   - Canva (for main screen design)  
   - PNG-to-C array converter (for asset integration)
 
-## 🎮 Gameplay Overview
+## Gameplay Overview
 
 - **Main Screen**  
   - Custom-designed using Canva and converted to a C array.  
@@ -51,23 +51,21 @@ The game runs on the **Nios V processor** and is displayed via **VGA output**, w
   - Completing both conditions triggers the **end screen** with concluding music.  
   - Press **Escape** at any time to return to the main screen.
 
-## 📸 Block Diagram
+## Block Diagram
 
 Below is the system-level block diagram:
 
 ![Block Diagram](Block_Diagram.png)  
 
 
-## 📹 Demo Video
+## Demo Video
 
 🎥 [Watch the Demo Video Here](https://drive.google.com/file/d/1BoZAGJSXcb0ABgDKVtCnGvAO_such8zC/view?usp=sharing)  
 
 
-## 🚀 How to Run
+## How to Run
 
 1. Load the project into your Nios V development environment.  
 2. Connect the DE1-SoC board to VGA, PS/2 keyboard, and speakers.  
 3. Compile and upload the code.  
 4. Start the game by pressing the **Space** key on the main screen.
-
-
